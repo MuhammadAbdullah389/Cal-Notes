@@ -16,11 +16,27 @@ header{
 header h1 span {
     color: #FFD700;
 }
-
+nav{
+    margin-top: 5px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #f0f0f0;
+}
 main {
     padding: 20px;
 }
-
 section {
     background-color: white;
     margin: 20px 0;
@@ -58,6 +74,6 @@ footer {
     text-align: center;
     font-size: xx-small;
 }
-:is(header , footer ) span {
+span {
     white-space: nowrap;
 }
