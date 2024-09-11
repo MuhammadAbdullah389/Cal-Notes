@@ -20,7 +20,7 @@ nav{
     margin-top: 5px;
     background-color: #4CAF50;
     color: white;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
 }
 nav ul {
@@ -76,4 +76,8 @@ footer {
 }
 span {
     white-space: nowrap;
+}
+nav {
+    position: sticky;
+    top: 0;
 }
