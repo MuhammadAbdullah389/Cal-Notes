@@ -1,84 +1,109 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
 }
 
-header{
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px;
-    text-align: center;
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 header h1 span {
-    color: #FFD700;
+  color: #ffd700;
 }
-nav{
-    margin-top: 5px;
-    background-color: #4caf50;
-    color: white;
-    padding: 5px;
-    text-align: center;
+nav {
+  margin-top: 5px;
+  background-color: #4caf50;
+  color: white;
+  padding: 5px;
+  text-align: center;
 }
 nav ul {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 nav ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
-nav ul li a{
-    text-decoration: none;
-    color: #f0f0f0;
+nav ul li a {
+  text-decoration: none;
+  color: #f0f0f0;
 }
 main {
-    padding: 20px;
+  padding: 20px;
 }
 section {
-    background-color: white;
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 2px solid #4caf50;
+  background-color: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #4caf50;
 }
 
 section h1 {
-    color: #4CAF50;
+  color: #4caf50;
 }
 
 section p {
-    font-size: 16px;
-    margin: 10px 0;
+  font-size: 16px;
+  margin: 10px 0;
 }
 
 section a {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    color: white;
-    background-color: #4CAF50;
-    border-radius: 5px;
-    text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #4caf50;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 section a:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
 footer {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    font-size: xx-small;
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: xx-small;
 }
 span {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 nav {
-    position: sticky;
-    top: 0;
+  position: sticky;
+  top: 0;
+}
+input[type="text"],
+input[type="email"] {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 1em;
+  border-radius: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+textarea {
+  height: 10rem;
+  margin: 5px 0 5px 0;
 }
